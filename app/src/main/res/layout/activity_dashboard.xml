@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0B132B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Menu Principal"
+        android:textSize="24sp"
+        android:textColor="#FFD700"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAlunos"
+        android:text="Alunos"
+        android:backgroundTint="#FFD700"
+        android:textColor="#0B132B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTurmas"
+        android:text="Turmas"
+        android:backgroundTint="#FFD700"
+        android:textColor="#0B132B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnProfessores"
+        android:text="Professores / Paraninfos"
+        android:backgroundTint="#FFD700"
+        android:textColor="#0B132B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnEventos"
+        android:text="Eventos"
+        android:backgroundTint="#FFD700"
+        android:textColor="#0B132B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnPagamentos"
+        android:text="Pagamentos"
+        android:backgroundTint="#FFD700"
+        android:textColor="#0B132B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
