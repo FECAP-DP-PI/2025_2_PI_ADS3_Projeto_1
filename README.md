@@ -1,90 +1,222 @@
+
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-<a href="https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado"></a>
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
----
+# FormApp
 
-# Projeto FormApp — Aplicativo de Formatura
+## Integrantes: <a >Daniela Pauzer</a>
 
-## 👨‍💻 Projeto 1
+## Professores Orientadores: <a> Victor Rosetti</a>
 
-### **Integrantes:**  
-- [Daniela Giacomo Pauzer](https://www.linkedin.com/in/daniela-giacomo-pauzer-a25a64304/)
-
-### **Professores Orientadores:**  
-
-
----
-
-## 📖 Descrição
+## Descrição
 
 <p align="center">
-
+<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
-O App Formatura foi desenvolvido para simplificar e organizar todo o processo relacionado à formatura de estudantes. Ele permite que alunos se cadastrem e acompanhem informações importantes sobre os eventos, pagamentos e status de participação de forma prática e organizada.
+```sh
+Utilize o site <https://www.toptal.com/developers/gitignore> para gerar seu arquivo gitignore e apague este campo.
 
-O objetivo do aplicativo é oferecer uma experiência intuitiva, onde o usuário pode:
+Vide tutoriais do PI.
+```
 
-Consultar detalhes sobre cada evento da formatura;
-Registrar e acompanhar pagamentos, verificando se estão pagos ou pendentes;
-Receber confirmações e informações personalizadas sobre sua participação;
-Centralizar todas as informações da formatura em um único lugar, evitando confusões e esquecimentos.
+# FECAP - Fundação de Comércio Álvares Penteado
 
-Dessa forma, o app busca facilitar a comunicação entre a organização da formatura e os alunos, garantindo que todos estejam informados e organizados durante todo o processo.
----
+<p align="center">
+<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+</p>
 
-## 🚀 Funcionalidades Principais
+# Nome do Projeto
 
-- ✅ **Cadastro de Alunos:** permite que cada aluno se registre com seus dados pessoais.
-- ✅ **Consulta de Eventos:** exibe informações detalhadas sobre cada evento da formatura.
-- ✅ **Registro de Pagamentos:** acompanha pagamentos de cada aluno, com status de Pago ou Pendente.
-- ✅ **Organização:** todas as informações da formatura reunidas em um único app, evitando confusões.
-- ✅ **Interface Intuitiva:** design simples e direto para fácil navegação pelos alunos.
+## Nome do Grupo
 
----
+## Integrantes: <a >Daniela Pauzer</a>
+
+## Professores Orientadores: <a> Victor Rosetti</a>
+
+## Descrição
+
+<p align="center">
+<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+</p>
+FormApp é um aplicativo que facilita a organização de eventos e pagamentos de formatura, conectando alunos e organizadores em um só lugar. Ideal para tornar o planejamento da formatura simples, rápido e eficiente.
+<br><br>
 
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
 |<br>
-|-->Documentos<br>
-  &emsp;|-->entrega 1<br>
-  &emsp;|-->entrega 2<br>
-  &emsp;|-->entrega final <br>
+|-->documentos<br>
+  &emsp;|-->antigos<br>
+  &emsp;|Documentação.docx<br>
+|-->executáveis<br>
+  &emsp;|-->windows<br>
+  &emsp;|-->android<br>
+  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
-|.gitignore<br>
 |readme.md<br>
 
-A pasta raiz contém dois arquivos que devem ser alterados:
+A pasta raiz contem dois arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 3 pastas que seguem da seguinte forma:
+Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
-<b>imagens</b>: Imagens do sistema.
+<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+
+<b>imagens</b>: Imagens do sistema
 
 <b>src</b>: Pasta que contém o código fonte.
 
----
+## 🛠 Instalação
 
-## 🎨 Protótipo no Figma
+<b>Android:</b>
 
-Confira o design e interações da **FormApp** no **[Figma](https://www.figma.com/design/416zFu6OQSTqNygzniWrwK/Untitled?node-id=0-1&t=BWq4Ftl9eJDGCnfj-1)**.
+Faça o Download do JOGO.apk no seu celular.
+Execute o APK e siga as instruções de seu telefone.
 
----
+```sh
+Coloque código do prompt de comnando se for necessário
+```
 
-## 🛠 Linguagens e Tecnologias Usadas
+<b>Windows:</b>
 
+Não há instalação! Apenas executável!
+Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
 
-- **Frontend:** Android Studio  
-- **Backend:** Android Studio (java)
-- **Banco de Dados:** SQLite Studio
- 
+```sh
+Coloque código do prompt de comnando se for necessário
+```
+
+<b>HTML:</b>
+
+Não há instalação!
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
+## 💻 Configuração para Desenvolvimento
+
+Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+
+Para abrir este projeto você necessita das seguintes ferramentas:
+
+-<a href="https://godotengine.org/download">GODOT</a>
+
+```sh
+make install
+npm test
+Coloque código do prompt de comnando se for necessário
+```
+
+## 📋 Licença/License
+Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+
+## 🎓 Referências
+
+Aqui estão as referências usadas no projeto.
+
+1. <https://github.com/iuricode/readme-template>
+2. <https://github.com/gabrieldejesus/readme-model>
+3. <https://chooser-beta.creativecommons.org/>
+4. <https://freesound.org/>
+5. <https://www.toptal.com/developers/gitignore>
+6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+
+<br><br>
+Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+<br><br>
+May the force be with you!
+<br><br>
+
+## 🛠 Estrutura de pastas
+
+-Raiz<br>
+|<br>
+|-->documentos<br>
+  &emsp;|-->antigos<br>
+  &emsp;|Documentação.docx<br>
+|-->executáveis<br>
+  &emsp;|-->windows<br>
+  &emsp;|-->android<br>
+  &emsp;|-->HTML<br>
+|-->imagens<br>
+|-->src<br>
+  &emsp;|-->Backend<br>
+  &emsp;|-->Frontend<br>
+|readme.md<br>
+
+A pasta raiz contem dois arquivos que devem ser alterados:
+
+<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+
+Há também 4 pastas que seguem da seguinte forma:
+
+<b>documentos</b>: Toda a documentação estará nesta pasta.
+
+<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+
+<b>imagens</b>: Imagens do sistema
+
+<b>src</b>: Pasta que contém o código fonte.
+
+## 🛠 Instalação
+
+<b>Android:</b>
+
+Faça o Download do JOGO.apk no seu celular.
+Execute o APK e siga as instruções de seu telefone.
+
+```sh
+Coloque código do prompt de comnando se for necessário
+```
+
+<b>Windows:</b>
+
+Não há instalação! Apenas executável!
+Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+
+```sh
+Coloque código do prompt de comnando se for necessário
+```
+
+<b>HTML:</b>
+
+Não há instalação!
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
+## 💻 Configuração para Desenvolvimento
+
+Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+
+Para abrir este projeto você necessita das seguintes ferramentas:
+
+-<a href="https://godotengine.org/download">GODOT</a>
+
+```sh
+make install
+npm test
+Coloque código do prompt de comnando se for necessário
+```
+
+## 📋 Licença/License
+Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+
+## 🎓 Referências
+
+Aqui estão as referências usadas no projeto.
+
+1. <https://github.com/iuricode/readme-template>
+2. <https://github.com/gabrieldejesus/readme-model>
+3. <https://chooser-beta.creativecommons.org/>
+4. <https://freesound.org/>
+5. <https://www.toptal.com/developers/gitignore>
+6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
