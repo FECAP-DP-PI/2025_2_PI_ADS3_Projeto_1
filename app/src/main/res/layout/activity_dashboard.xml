@@ -1,61 +1,256 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp"
-    android:background="#0B132B"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#0B132B"
+    android:fillViewport="true">
 
-    <TextView
-        android:text="Menu Principal"
-        android:textSize="24sp"
-        android:textColor="#FFD700"
-        android:layout_marginBottom="32dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/btnAlunos"
-        android:text="Alunos"
-        android:backgroundTint="#FFD700"
-        android:textColor="#0B132B"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="50dp">
 
-    <Button
-        android:id="@+id/btnTurmas"
-        android:text="Turmas"
-        android:backgroundTint="#FFD700"
-        android:textColor="#0B132B"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/btnProfessores"
-        android:text="Professores / Paraninfos"
-        android:backgroundTint="#FFD700"
-        android:textColor="#0B132B"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geral:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFD700"
+            android:layout_marginBottom="12dp" />
 
-    <Button
-        android:id="@+id/btnEventos"
-        android:text="Eventos"
-        android:backgroundTint="#FFD700"
-        android:textColor="#0B132B"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignBounds"
+            android:layout_marginBottom="16dp">
 
-    <Button
-        android:id="@+id/btnPagamentos"
-        android:text="Pagamentos"
-        android:backgroundTint="#FFD700"
-        android:textColor="#0B132B"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+            <!-- Card: Total de Alunos -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="#FFD700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvTotalAlunos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#0B132B" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alunos"
+                        android:textSize="12sp"
+                        android:textColor="#1F1F1F" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="#FFD700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvPagamentosPendentes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 6.750"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#800020" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pendentes"
+                        android:textSize="12sp"
+                        android:textColor="#1F1F1F" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="#FFD700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvPagamentosRecebidos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R$ 13.500"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#28a745" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Recebidos"
+                        android:textSize="12sp"
+                        android:textColor="#1F1F1F" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="#FFD700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvProximoEvento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15/12"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#0B132B" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Próximo Evento"
+                        android:textSize="12sp"
+                        android:textColor="#1F1F1F" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignBounds"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnGerenciarAlunos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Gerenciar\nAlunos"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A"/>
+
+            <Button
+                android:id="@+id/btnCriarEvento"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Criar\nEvento"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A"/>
+
+            <Button
+                android:id="@+id/btnPagamentos"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Gerenciar\nPagamentos"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A" />
+
+            <Button
+                android:id="@+id/btnRelatorios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Ver\nRelatórios"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A"/>
+
+            <Button
+                android:id="@+id/btnProfessores"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Professores/\nParaninfos"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A" />
+
+            <Button
+                android:id="@+id/btnTurmas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:text="Gerenciar\nTurmas"
+                android:textSize="14sp"
+                android:textColor="#FFD700"
+                android:padding="20dp"
+                android:backgroundTint="#0B120A"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

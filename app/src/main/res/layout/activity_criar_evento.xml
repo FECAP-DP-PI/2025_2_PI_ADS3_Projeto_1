@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#0B132B"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criar Novo Evento"
+            android:fontFamily="serif"
+            android:textColor="#FFD700"
+            android:textSize="28sp"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/etNomeEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Evento"
+            android:inputType="text"
+            android:backgroundTint="#FFD700"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etDataEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data (DD/MM/YYYY)"
+            android:inputType="date"
+            android:backgroundTint="#FFD700"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etLocalEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local do Evento"
+            android:inputType="text"
+            android:backgroundTint="#FFD700"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etDescricaoEvento"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Descrição (opcional)"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:backgroundTint="#FFD700"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSalvarEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criar Evento"
+            android:backgroundTint="#FFD700"
+            android:textColor="#0B132B"
+            android:textSize="16dp"
+            android:layout_marginTop="16sp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:backgroundTint="#FFD600"
+            android:layout_marginTop="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
