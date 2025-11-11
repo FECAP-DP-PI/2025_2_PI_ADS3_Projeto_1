@@ -15,8 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="<img width="1024" height="1024" alt="image" src="![Uploading image.png…]()
-" />
+<img src="<img width="1024" height="1024" alt="image" src="(https://chatgpt.com/backend-api/estuary/content?id=file_00000000fec471f5aecff1c90095e795&ts=489672&p=fs&cid=1&sig=0241e1a600632b3f61b4dfd94678e0a7015f17c686e61acb65d19f336105e904&v=0)" />
 " alt="FormApp" border="0">
 </p>
 FormApp é um aplicativo que facilita a organização de eventos e pagamentos de formatura, conectando alunos e organizadores em um só lugar. Ideal para tornar o planejamento da formatura simples, rápido e eficiente.
